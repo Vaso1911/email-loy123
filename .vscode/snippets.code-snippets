@@ -1,0 +1,42 @@
+{
+	"tr-td-table": {
+		"scope": "html",
+		"prefix": "tr-td-table",
+		"body": [
+   "<tr>",
+   "  <td>",
+   "    <table>",
+   "     $0",
+   "    </table>",
+   "  </td>",
+   "</tr>"
+		],
+		"description": "tr-td-table"
+	},
+	"table-tr-td": {
+		"scope": "html",
+		"prefix": "table-tr-td",
+		"body": [
+   "<table>",
+   "  <tr>",
+   "    <td>",
+   "     $0",
+   "    </td>",
+   "  </tr>",
+   "</table>"
+		],
+		"description": "table-tr-td"
+	},
+
+  "tr-td": {
+    "prefix": "tr-td",
+    "body": [
+      "<tr>",
+      "  <td>",
+      "    $0",
+      "  </td>",
+      "</tr>"
+    ],
+    "description": "tr-td"
+  }
+}
